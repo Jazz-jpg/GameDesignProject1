@@ -1,14 +1,58 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 26000,
-	"name": "test",
+	"name": "sucker_punch_001",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [],
-	"uniqueId": "c2ggt1tt8pi",
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		}
+	],
+	"uniqueId": "luz9b5c58m6",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"Tilemap",
+			"Sprite"
+		],
 		"subfolders": []
 	},
 	"autosaveData": null,
@@ -55,7 +99,7 @@
 				{
 					"name": "icon-16.png",
 					"type": "image/png",
-					"sid": 143459497001422,
+					"sid": 886538211713496,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -63,7 +107,7 @@
 				{
 					"name": "icon-32.png",
 					"type": "image/png",
-					"sid": 395068673296576,
+					"sid": 812245222915750,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -71,7 +115,7 @@
 				{
 					"name": "icon-64.png",
 					"type": "image/png",
-					"sid": 777406507482752,
+					"sid": 687962274700599,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -79,15 +123,7 @@
 				{
 					"name": "icon-128.png",
 					"type": "image/png",
-					"sid": 411923971122330,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-256.png",
-					"type": "image/png",
-					"sid": 174205716458354,
+					"sid": 419939401553423,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -95,7 +131,7 @@
 				{
 					"name": "icon-512.png",
 					"type": "image/png",
-					"sid": 388822986490002,
+					"sid": 902364800573671,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -103,9 +139,17 @@
 				{
 					"name": "loading-logo.png",
 					"type": "image/png",
-					"sid": 364842354023632,
+					"sid": 623228874784634,
 					"icon-info": {
 						"purpose": "loading-logo"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 886168529883728,
+					"icon-info": {
+						"purpose": "app-icon"
 					}
 				}
 			],
@@ -134,10 +178,10 @@
 		"authorEmail": "",
 		"authorWebsite": "",
 		"appId": "",
-		"pixelRounding": false,
+		"pixelRounding": true,
 		"useLoaderLayout": false,
-		"fullscreenMode": "letterbox-scale",
-		"fullscreenQuality": "high",
+		"fullscreenMode": "letterbox-integer-scale",
+		"fullscreenQuality": "low",
 		"viewportFit": "auto",
 		"backgroundColor": [
 			0,
@@ -163,7 +207,7 @@
 		"scriptsType": "module",
 		"framerateMode": "vsync",
 		"compositingMode": "standard",
-		"sampling": "trilinear",
+		"sampling": "nearest",
 		"downscaling": "medium",
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
@@ -172,7 +216,7 @@
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app"
 	},
-	"viewportWidth": 854,
-	"viewportHeight": 480,
+	"viewportWidth": 256,
+	"viewportHeight": 144,
 	"firstLayout": null
 }
