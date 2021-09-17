@@ -1,5 +1,135 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Health",
+			"type": "number",
+			"initialValue": "100",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 153510362860507
+		},
+		{
+			"eventType": "variable",
+			"name": "Damage",
+			"type": "number",
+			"initialValue": "100",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 620845307456083
+		},
+		{
+			"eventType": "variable",
+			"name": "MDamage",
+			"type": "number",
+			"initialValue": "100",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 230629067793262
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Door_Health",
+					"sid": 617974115816812,
+					"parameters": {
+						"object": "Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 991496305848042,
+					"parameters": {
+						"which": "next"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 617613216342436,
+					"parameters": {
+						"variable": "Health",
+						"value": "25"
+					}
+				}
+			],
+			"sid": 329153686733078
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Door_Dmg",
+					"sid": 895589105409695,
+					"parameters": {
+						"object": "Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 683749584146899,
+					"parameters": {
+						"which": "next"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 804569908267477,
+					"parameters": {
+						"variable": "Damage",
+						"value": "25"
+					}
+				}
+			],
+			"sid": 747904108610336
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Door_MDmg",
+					"sid": 966915789408622,
+					"parameters": {
+						"object": "Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 164264062740031,
+					"parameters": {
+						"which": "next"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 344720585042725,
+					"parameters": {
+						"variable": "MDamage",
+						"value": "25"
+					}
+				}
+			],
+			"sid": 229426167488501
+		}
+	],
 	"sid": 277905098473071
 }

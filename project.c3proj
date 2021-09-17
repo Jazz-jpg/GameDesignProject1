@@ -32,6 +32,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "bound",
 			"name": "Bound to layout",
 			"author": "Scirra",
@@ -60,7 +68,13 @@
 		"items": [
 			"Tilemap",
 			"Sprite",
-			"TiledBackground"
+			"TiledBackground",
+			"Door_Health",
+			"Icon_dmg",
+			"Icon_MDmg",
+			"Door_Dmg",
+			"Door_MDmg",
+			"Icon_Health"
 		],
 		"subfolders": []
 	},
@@ -230,5 +244,5 @@
 	},
 	"viewportWidth": 256,
 	"viewportHeight": 144,
-	"firstLayout": null
+	"firstLayout": "Layout 1"
 }
