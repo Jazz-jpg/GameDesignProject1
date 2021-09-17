@@ -1,0 +1,127 @@
+{
+	"name": "Sword",
+	"plugin-id": "Sprite",
+	"sid": 726660941951904,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 913851359291049
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4205526,
+						"collisionPoly": {
+							"points": [
+								0.8125,
+								0.1875,
+								0.9375,
+								0.5,
+								0.75,
+								0.6875,
+								0.5,
+								0.625,
+								0.4375,
+								0.5625,
+								0.4375,
+								0.5,
+								0.4375,
+								0.375,
+								0.5,
+								0.25
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8530142,
+						"collisionPoly": {
+							"points": [
+								0.8125,
+								0.1875,
+								0.9375,
+								0.5,
+								0.75,
+								0.6875,
+								0.5,
+								0.625,
+								0.4375,
+								0.5625,
+								0.4375,
+								0.5,
+								0.4375,
+								0.375,
+								0.5,
+								0.25
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2300274,
+						"collisionPoly": {
+							"points": [
+								0.8125,
+								0.1875,
+								0.9375,
+								0.5,
+								0.75,
+								0.6875,
+								0.5,
+								0.625,
+								0.4375,
+								0.5625,
+								0.4375,
+								0.5,
+								0.4375,
+								0.375,
+								0.5,
+								0.25
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 470552897277997,
+				"name": "Attack",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 16
+			}
+		],
+		"subfolders": []
+	}
+}

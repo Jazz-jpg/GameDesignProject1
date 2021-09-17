@@ -1,0 +1,194 @@
+{
+	"name": "Kid",
+	"plugin-id": "Sprite",
+	"sid": 543039210495726,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 648474711318951
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 880013670983403
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 456074475432041
+		},
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 619486963840341
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.625,
+						"originalSource": "C:\\Users\\jesse\\OneDrive\\Desktop\\Game_Sprites\\Dungeon_Character_2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 577831,
+						"collisionPoly": {
+							"points": [
+								0.1875,
+								0.1875,
+								0.5,
+								0,
+								0.6875,
+								0.25,
+								0.9375,
+								0.5,
+								0.6875,
+								0.6875,
+								0.5,
+								0.875,
+								0.25,
+								0.6875,
+								0.0625,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.9375,
+								"y": 0.75
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 642460120046312,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0.5625,
+						"originY": 0.625,
+						"originalSource": "C:\\Users\\jesse\\OneDrive\\Desktop\\Game_Sprites\\Dungeon_Character_2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6813042,
+						"collisionPoly": {
+							"points": [
+								0.1875,
+								0.1875,
+								0.5,
+								0,
+								0.6875,
+								0.25,
+								0.9375,
+								0.5,
+								0.6875,
+								0.6875,
+								0.5,
+								0.875,
+								0.25,
+								0.6875,
+								0.0625,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0.5625,
+						"originY": 0.625,
+						"originalSource": "C:\\Users\\jesse\\OneDrive\\Desktop\\Game_Sprites\\Dungeon_Character_2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1282841,
+						"collisionPoly": {
+							"points": [
+								0.1875,
+								0.1875,
+								0.5,
+								0,
+								0.6875,
+								0.25,
+								0.9375,
+								0.5,
+								0.6875,
+								0.6875,
+								0.5,
+								0.875,
+								0.25,
+								0.6875,
+								0.0625,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 2
+					},
+					{
+						"width": 16,
+						"height": 16,
+						"originX": 0.5625,
+						"originY": 0.625,
+						"originalSource": "C:\\Users\\jesse\\OneDrive\\Desktop\\Game_Sprites\\Dungeon_Character_2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 262077,
+						"collisionPoly": {
+							"points": [
+								0.1875,
+								0.1875,
+								0.5,
+								0,
+								0.6875,
+								0.25,
+								0.9375,
+								0.5,
+								0.6875,
+								0.6875,
+								0.5,
+								0.875,
+								0.25,
+								0.6875,
+								0.0625,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 641385780115725,
+				"name": "Animation 2",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 2
+			}
+		],
+		"subfolders": []
+	}
+}

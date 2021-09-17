@@ -1,5 +1,276 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 493559912179528
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle-toward-position",
+					"objectClass": "Kid",
+					"sid": 202613585064383,
+					"parameters": {
+						"x": "Mouse.X",
+						"y": "Mouse.Y"
+					}
+				}
+			],
+			"sid": 482937151879488
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 132942520901583,
+					"parameters": {
+						"key": 17
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Kid",
+					"sid": 881864384061596,
+					"parameters": {
+						"object": "Fireball",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 753340153140070
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 175084094689862,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Kid",
+					"sid": 157120417304362,
+					"parameters": {
+						"object": "Sword",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "Sword",
+					"sid": 328256185401242,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Kid",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 102704515853911
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "Sword",
+					"sid": 786641483918335,
+					"parameters": {
+						"animation": "\"Attack\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sword",
+					"sid": 572153946093106
+				}
+			],
+			"sid": 119865744884345
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 747550231326088
+				}
+			],
+			"actions": [],
+			"sid": 477572705657913
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Fireball",
+					"sid": 242599046228120,
+					"parameters": {
+						"object": "CandyKnight"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "CandyKnight",
+					"sid": 755824073479017,
+					"parameters": {
+						"instance-variable": "HP",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 934594043337726
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "CandyKnight",
+					"sid": 864548230659128,
+					"parameters": {
+						"instance-variable": "HP",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "CandyKnight",
+					"sid": 948572610531076
+				}
+			],
+			"sid": 536712579600247
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sword",
+					"sid": 243057232534945,
+					"parameters": {
+						"object": "CandyKnight"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "CandyKnight",
+					"sid": 629757224445133,
+					"parameters": {
+						"instance-variable": "HP",
+						"value": "5"
+					}
+				}
+			],
+			"sid": 863056109284634
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 750623287571861
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-object",
+					"objectClass": "CandyKnight",
+					"sid": 950147424947555,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"object": "Kid",
+						"image-point": "0",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 894008630524341
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CandyKnight",
+					"sid": 491356827481251,
+					"parameters": {
+						"object": "Kid"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Kid",
+					"sid": 552253500651068,
+					"parameters": {
+						"instance-variable": "Health",
+						"value": "10"
+					}
+				}
+			],
+			"sid": 710110489063478
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Kid",
+					"sid": 232682568950674,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Kid",
+					"sid": 345351820675940
+				}
+			],
+			"sid": 727132466712431
+		}
+	],
 	"sid": 277905098473071
 }
