@@ -74,7 +74,11 @@
 			"Icon_MDmg",
 			"Door_Dmg",
 			"Door_MDmg",
-			"Icon_Health"
+			"Icon_Health",
+			"Tilemap_No_Collision",
+			"tut_tileset",
+			"Tilemap2",
+			"Tilemap_With_Collision"
 		],
 		"subfolders": []
 	},
@@ -86,6 +90,7 @@
 	},
 	"layouts": {
 		"items": [
+			"Tutorial",
 			"Layout 1",
 			"Layout 2",
 			"Layout 3",
@@ -95,7 +100,8 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},
