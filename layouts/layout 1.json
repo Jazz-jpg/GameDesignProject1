@@ -95,7 +95,11 @@
 				},
 				{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					"type": "Kid",
+=======
+					"type": "Player",
+>>>>>>> Stashed changes
 =======
 					"type": "Player",
 >>>>>>> Stashed changes
@@ -140,7 +144,11 @@
 						"height": 16,
 						"originX": 0.5,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						"originY": 0.625,
+=======
+						"originY": 0.5625,
+>>>>>>> Stashed changes
 =======
 						"originY": 0.5625,
 >>>>>>> Stashed changes
@@ -493,6 +501,96 @@
 					}
 				},
 				{
+<<<<<<< Updated upstream
+=======
+					"type": "CandyKnight",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 32,
+					"instanceVariables": {
+						"Health": 100
+					},
+					"behaviors": {
+						"MoveTo": {
+							"properties": {
+								"max-speed": 50,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": true,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 389.2413024902344,
+						"y": 880.9183349609375,
+						"width": 15,
+						"height": 18,
+						"originX": 0.4666666666666667,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Fireball",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 33,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"DestroyOutsideLayout": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 1047,
+						"y": 885,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+>>>>>>> Stashed changes
 					"type": "Sword",
 					"properties": {
 						"initially-visible": true,

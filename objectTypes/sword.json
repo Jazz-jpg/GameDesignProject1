@@ -2,7 +2,11 @@
 	"name": "Sword",
 	"plugin-id": "Sprite",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	"sid": 726660941951904,
+=======
+	"sid": 610510956802088,
+>>>>>>> Stashed changes
 =======
 	"sid": 610510956802088,
 >>>>>>> Stashed changes
@@ -13,7 +17,11 @@
 			"behaviorId": "Pin",
 			"name": "Pin",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"sid": 913851359291049
+=======
+			"sid": 382533358191993
+>>>>>>> Stashed changes
 =======
 			"sid": 382533358191993
 >>>>>>> Stashed changes
@@ -33,7 +41,11 @@
 						"exportFormat": "png",
 						"exportQuality": 0.8,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						"imageSpriteId": 4205526,
+=======
+						"imageSpriteId": 4826823,
+>>>>>>> Stashed changes
 =======
 						"imageSpriteId": 4826823,
 >>>>>>> Stashed changes
@@ -69,7 +81,11 @@
 						"exportFormat": "png",
 						"exportQuality": 0.8,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						"imageSpriteId": 8530142,
+=======
+						"imageSpriteId": 9293525,
+>>>>>>> Stashed changes
 =======
 						"imageSpriteId": 9293525,
 >>>>>>> Stashed changes
@@ -105,7 +121,11 @@
 						"exportFormat": "png",
 						"exportQuality": 0.8,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						"imageSpriteId": 2300274,
+=======
+						"imageSpriteId": 3152338,
+>>>>>>> Stashed changes
 =======
 						"imageSpriteId": 3152338,
 >>>>>>> Stashed changes
@@ -134,8 +154,13 @@
 					}
 				],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				"sid": 470552897277997,
 				"name": "Attack",
+=======
+				"sid": 629951802584424,
+				"name": "Animation 1",
+>>>>>>> Stashed changes
 =======
 				"sid": 629951802584424,
 				"name": "Animation 1",

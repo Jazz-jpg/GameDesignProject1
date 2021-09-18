@@ -1,5 +1,6 @@
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:objectTypes/fireball.json
 	"name": "Fireball",
 =======
@@ -12,6 +13,11 @@
 	"plugin-id": "Sprite",
 	"sid": 717484961584238,
 >>>>>>> Stashed changes
+=======
+	"name": "Fireball",
+	"plugin-id": "Sprite",
+	"sid": 717484961584238,
+>>>>>>> Stashed changes
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
@@ -19,7 +25,11 @@
 			"behaviorId": "Bullet",
 			"name": "Bullet",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"sid": 993020379872690
+=======
+			"sid": 884454978725553
+>>>>>>> Stashed changes
 =======
 			"sid": 884454978725553
 >>>>>>> Stashed changes
@@ -28,7 +38,11 @@
 			"behaviorId": "destroy",
 			"name": "DestroyOutsideLayout",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"sid": 623231916870678
+=======
+			"sid": 981840410143248
+>>>>>>> Stashed changes
 =======
 			"sid": 981840410143248
 >>>>>>> Stashed changes
@@ -44,13 +58,17 @@
 						"height": 16,
 						"originX": 0.5,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:objectTypes/fireball.json
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 						"imageSpriteId": 7149097,
 =======
@@ -60,6 +78,9 @@
 						"exportQuality": 0.8,
 						"imageSpriteId": 7237309,
 >>>>>>> Stashed changes:objectTypes/player.json
+=======
+						"imageSpriteId": 851520,
+>>>>>>> Stashed changes
 =======
 						"imageSpriteId": 851520,
 >>>>>>> Stashed changes
@@ -85,6 +106,7 @@
 						},
 						"useCollisionPoly": true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						"imagePoints": [
 							{
 								"name": "Image Point 1",
@@ -97,10 +119,15 @@
 				],
 				"sid": 975100285779318,
 =======
+=======
+>>>>>>> Stashed changes
 						"duration": 1
 					}
 				],
 				"sid": 156460820009700,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				"name": "Animation 1",
 				"isLooping": false,
@@ -108,7 +135,11 @@
 				"repeatCount": 1,
 				"repeatTo": 0,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				"speed": 2
+=======
+				"speed": 5
+>>>>>>> Stashed changes
 =======
 				"speed": 5
 >>>>>>> Stashed changes

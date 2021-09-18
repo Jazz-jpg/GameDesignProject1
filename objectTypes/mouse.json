@@ -2,17 +2,23 @@
 	"name": "Mouse",
 	"plugin-id": "Mouse",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	"sid": 446596498779306,
 	"singleglobal-inst": {
 		"type": "Mouse",
 		"properties": {},
 		"uid": 4
 =======
+=======
+>>>>>>> Stashed changes
 	"sid": 877687563461179,
 	"singleglobal-inst": {
 		"type": "Mouse",
 		"properties": {},
 		"uid": 35
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 }

@@ -1,23 +1,24 @@
 {
-<<<<<<< Updated upstream:objectTypes/fireball.json
-	"name": "Fireball",
-=======
 	"name": "Player",
->>>>>>> Stashed changes:objectTypes/player.json
 	"plugin-id": "Sprite",
-	"sid": 287576394754076,
+	"sid": 543039210495726,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Bullet",
-			"name": "Bullet",
-			"sid": 993020379872690
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 880013670983403
 		},
 		{
-			"behaviorId": "destroy",
-			"name": "DestroyOutsideLayout",
-			"sid": 623231916870678
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 456074475432041
+		},
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 619486963840341
 		}
 	],
 	"effectTypes": [],
@@ -29,36 +30,28 @@
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
-<<<<<<< Updated upstream:objectTypes/fireball.json
-						"originY": 0.5,
-						"originalSource": "",
-						"exportFormat": "png",
-						"exportQuality": 0.8,
-						"imageSpriteId": 7149097,
-=======
 						"originY": 0.5625,
 						"originalSource": "C:\\Users\\jesse\\OneDrive\\Desktop\\Game_Sprites\\Dungeon_Character_2.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
 						"imageSpriteId": 7237309,
->>>>>>> Stashed changes:objectTypes/player.json
 						"collisionPoly": {
 							"points": [
-								0.3125,
-								0.3125,
+								0.1875,
+								0.1875,
 								0.5,
-								0.125,
+								0,
 								0.6875,
 								0.25,
-								0.8125,
-								0.5,
-								0.75,
-								0.75,
-								0.5,
 								0.9375,
-								0.1875,
-								0.75,
-								0.125,
+								0.5,
+								0.6875,
+								0.6875,
+								0.5,
+								0.875,
+								0.25,
+								0.6875,
+								0.0625,
 								0.5
 							]
 						},
@@ -73,13 +66,13 @@
 						"duration": 1
 					}
 				],
-				"sid": 975100285779318,
+				"sid": 642460120046312,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 2
+				"speed": 5
 			}
 		],
 		"subfolders": []

@@ -2,6 +2,7 @@
 	"name": "CandyKnight",
 	"plugin-id": "Sprite",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	"sid": 870612486654982,
 	"isGlobal": false,
 	"instanceVariables": [
@@ -11,6 +12,8 @@
 			"desc": "Health of Enemy",
 			"sid": 618392643615697
 =======
+=======
+>>>>>>> Stashed changes
 	"sid": 961025961253344,
 	"isGlobal": false,
 	"instanceVariables": [
@@ -19,6 +22,9 @@
 			"type": "number",
 			"desc": "",
 			"sid": 735442089028788
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		}
 	],
@@ -27,7 +33,11 @@
 			"behaviorId": "MoveTo",
 			"name": "MoveTo",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"sid": 857632993238348
+=======
+			"sid": 866612223400712
+>>>>>>> Stashed changes
 =======
 			"sid": 866612223400712
 >>>>>>> Stashed changes
@@ -40,9 +50,15 @@
 				"frames": [
 					{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
+=======
+						"width": 15,
+						"height": 18,
+						"originX": 0.4666666666666667,
+>>>>>>> Stashed changes
 =======
 						"width": 15,
 						"height": 18,
@@ -52,6 +68,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 						"imageSpriteId": 6593840,
 						"collisionPoly": {
@@ -72,6 +89,8 @@
 								0.75,
 								0.125,
 =======
+=======
+>>>>>>> Stashed changes
 						"imageSpriteId": 8637457,
 						"collisionPoly": {
 							"points": [
@@ -90,6 +109,9 @@
 								0.13333333333333333,
 								0.7222222222222222,
 								0.06666666666666667,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 								0.5
 							]
@@ -99,7 +121,11 @@
 					}
 				],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				"sid": 261669880500280,
+=======
+				"sid": 586353396033078,
+>>>>>>> Stashed changes
 =======
 				"sid": 586353396033078,
 >>>>>>> Stashed changes

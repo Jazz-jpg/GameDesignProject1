@@ -51,6 +51,22 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -86,8 +102,13 @@
 		{
 			"type": "behavior",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"id": "Bullet",
 			"name": "Bullet",
+=======
+			"id": "MoveTo",
+			"name": "Move To",
+>>>>>>> Stashed changes
 =======
 			"id": "MoveTo",
 			"name": "Move To",
@@ -99,8 +120,13 @@
 		{
 			"type": "behavior",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"id": "destroy",
 			"name": "Destroy outside layout",
+=======
+			"id": "Bullet",
+			"name": "Bullet",
+>>>>>>> Stashed changes
 =======
 			"id": "Bullet",
 			"name": "Bullet",
@@ -111,6 +137,7 @@
 		},
 		{
 			"type": "behavior",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			"id": "Pin",
 			"name": "Pin",
@@ -118,6 +145,10 @@
 			"id": "destroy",
 			"name": "Destroy outside layout",
 >>>>>>> Stashed changes
+=======
+			"id": "destroy",
+			"name": "Destroy outside layout",
+>>>>>>> Stashed changes
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
@@ -125,8 +156,13 @@
 		{
 			"type": "behavior",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"id": "MoveTo",
 			"name": "Move To",
+=======
+			"id": "Pin",
+			"name": "Pin",
+>>>>>>> Stashed changes
 =======
 			"id": "Pin",
 			"name": "Pin",
@@ -141,6 +177,7 @@
 		"items": [
 			"Tilemap",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"Kid",
 			"Mouse",
 			"Keyboard",
@@ -148,6 +185,8 @@
 			"Sword",
 			"CandyKnight"
 =======
+=======
+>>>>>>> Stashed changes
 			"Player",
 			"TiledBackground",
 			"Door_Health",
@@ -161,6 +200,9 @@
 			"Sword",
 			"Mouse",
 			"Keyboard"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		],
 		"subfolders": []
