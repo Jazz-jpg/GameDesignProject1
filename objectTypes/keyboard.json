@@ -1,10 +1,18 @@
 {
 	"name": "Keyboard",
 	"plugin-id": "Keyboard",
+<<<<<<< Updated upstream
 	"sid": 589331717866548,
 	"singleglobal-inst": {
 		"type": "Keyboard",
 		"properties": {},
 		"uid": 5
+=======
+	"sid": 450634250917342,
+	"singleglobal-inst": {
+		"type": "Keyboard",
+		"properties": {},
+		"uid": 36
+>>>>>>> Stashed changes
 	}
 }

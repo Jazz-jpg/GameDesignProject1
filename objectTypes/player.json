@@ -1,5 +1,4 @@
 {
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream:objectTypes/fireball.json
 	"name": "Fireball",
 =======
@@ -7,31 +6,18 @@
 >>>>>>> Stashed changes:objectTypes/player.json
 	"plugin-id": "Sprite",
 	"sid": 287576394754076,
-=======
-	"name": "Fireball",
-	"plugin-id": "Sprite",
-	"sid": 717484961584238,
->>>>>>> Stashed changes
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Bullet",
 			"name": "Bullet",
-<<<<<<< Updated upstream
 			"sid": 993020379872690
-=======
-			"sid": 884454978725553
->>>>>>> Stashed changes
 		},
 		{
 			"behaviorId": "destroy",
 			"name": "DestroyOutsideLayout",
-<<<<<<< Updated upstream
 			"sid": 623231916870678
-=======
-			"sid": 981840410143248
->>>>>>> Stashed changes
 		}
 	],
 	"effectTypes": [],
@@ -43,15 +29,11 @@
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream:objectTypes/fireball.json
-=======
->>>>>>> Stashed changes
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-<<<<<<< Updated upstream
 						"imageSpriteId": 7149097,
 =======
 						"originY": 0.5625,
@@ -60,9 +42,6 @@
 						"exportQuality": 0.8,
 						"imageSpriteId": 7237309,
 >>>>>>> Stashed changes:objectTypes/player.json
-=======
-						"imageSpriteId": 851520,
->>>>>>> Stashed changes
 						"collisionPoly": {
 							"points": [
 								0.3125,
@@ -84,7 +63,6 @@
 							]
 						},
 						"useCollisionPoly": true,
-<<<<<<< Updated upstream
 						"imagePoints": [
 							{
 								"name": "Image Point 1",
@@ -96,22 +74,12 @@
 					}
 				],
 				"sid": 975100285779318,
-=======
-						"duration": 1
-					}
-				],
-				"sid": 156460820009700,
->>>>>>> Stashed changes
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-<<<<<<< Updated upstream
 				"speed": 2
-=======
-				"speed": 5
->>>>>>> Stashed changes
 			}
 		],
 		"subfolders": []

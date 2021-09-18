@@ -1,6 +1,7 @@
 {
 	"name": "CandyKnight",
 	"plugin-id": "Sprite",
+<<<<<<< Updated upstream
 	"sid": 870612486654982,
 	"isGlobal": false,
 	"instanceVariables": [
@@ -9,13 +10,27 @@
 			"type": "number",
 			"desc": "Health of Enemy",
 			"sid": 618392643615697
+=======
+	"sid": 961025961253344,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 735442089028788
+>>>>>>> Stashed changes
 		}
 	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "MoveTo",
 			"name": "MoveTo",
+<<<<<<< Updated upstream
 			"sid": 857632993238348
+=======
+			"sid": 866612223400712
+>>>>>>> Stashed changes
 		}
 	],
 	"effectTypes": [],
@@ -24,13 +39,20 @@
 			{
 				"frames": [
 					{
+<<<<<<< Updated upstream
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
+=======
+						"width": 15,
+						"height": 18,
+						"originX": 0.4666666666666667,
+>>>>>>> Stashed changes
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
+<<<<<<< Updated upstream
 						"imageSpriteId": 6593840,
 						"collisionPoly": {
 							"points": [
@@ -49,6 +71,26 @@
 								0.1875,
 								0.75,
 								0.125,
+=======
+						"imageSpriteId": 8637457,
+						"collisionPoly": {
+							"points": [
+								0.26666666666666666,
+								0.3333333333333333,
+								0.4666666666666667,
+								0.05555555555555555,
+								0.6666666666666666,
+								0.2777777777777778,
+								0.8666666666666667,
+								0.5,
+								0.8,
+								0.7777777777777778,
+								0.4666666666666667,
+								0.8333333333333334,
+								0.13333333333333333,
+								0.7222222222222222,
+								0.06666666666666667,
+>>>>>>> Stashed changes
 								0.5
 							]
 						},
@@ -56,7 +98,11 @@
 						"duration": 1
 					}
 				],
+<<<<<<< Updated upstream
 				"sid": 261669880500280,
+=======
+				"sid": 586353396033078,
+>>>>>>> Stashed changes
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -32,8 +32,29 @@
 		},
 		{
 			"type": "plugin",
+<<<<<<< Updated upstream
 			"id": "Keyboard",
 			"name": "Keyboard",
+=======
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+>>>>>>> Stashed changes
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
@@ -64,32 +85,52 @@
 		},
 		{
 			"type": "behavior",
+<<<<<<< Updated upstream
 			"id": "Bullet",
 			"name": "Bullet",
-			"author": "Scirra",
-			"version": "r260",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "destroy",
-			"name": "Destroy outside layout",
-			"author": "Scirra",
-			"version": "r260",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Pin",
-			"name": "Pin",
-			"author": "Scirra",
-			"version": "r260",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
+=======
 			"id": "MoveTo",
 			"name": "Move To",
+>>>>>>> Stashed changes
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+<<<<<<< Updated upstream
+			"id": "destroy",
+			"name": "Destroy outside layout",
+=======
+			"id": "Bullet",
+			"name": "Bullet",
+>>>>>>> Stashed changes
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+<<<<<<< Updated upstream
+			"id": "Pin",
+			"name": "Pin",
+=======
+			"id": "destroy",
+			"name": "Destroy outside layout",
+>>>>>>> Stashed changes
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+<<<<<<< Updated upstream
+			"id": "MoveTo",
+			"name": "Move To",
+=======
+			"id": "Pin",
+			"name": "Pin",
+>>>>>>> Stashed changes
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
@@ -99,12 +140,28 @@
 	"objectTypes": {
 		"items": [
 			"Tilemap",
+<<<<<<< Updated upstream
 			"Kid",
 			"Mouse",
 			"Keyboard",
 			"Fireball",
 			"Sword",
 			"CandyKnight"
+=======
+			"Player",
+			"TiledBackground",
+			"Door_Health",
+			"Icon_dmg",
+			"Icon_MDmg",
+			"Door_Dmg",
+			"Door_MDmg",
+			"Icon_Health",
+			"CandyKnight",
+			"Fireball",
+			"Sword",
+			"Mouse",
+			"Keyboard"
+>>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},

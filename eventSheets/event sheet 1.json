@@ -101,7 +101,11 @@
 					"objectClass": "Sword",
 					"sid": 786641483918335,
 					"parameters": {
+<<<<<<< Updated upstream
 						"animation": "\"Attack\""
+=======
+						"object": "Player"
+>>>>>>> Stashed changes
 					}
 				}
 			],
@@ -182,7 +186,11 @@
 					"objectClass": "Sword",
 					"sid": 243057232534945,
 					"parameters": {
+<<<<<<< Updated upstream
 						"object": "CandyKnight"
+=======
+						"object": "Player"
+>>>>>>> Stashed changes
 					}
 				}
 			],
@@ -231,7 +239,11 @@
 					"objectClass": "CandyKnight",
 					"sid": 491356827481251,
 					"parameters": {
+<<<<<<< Updated upstream
 						"object": "Kid"
+=======
+						"object": "Player"
+>>>>>>> Stashed changes
 					}
 				}
 			],
@@ -262,6 +274,7 @@
 					}
 				}
 			],
+<<<<<<< Updated upstream
 			"actions": [
 				{
 					"id": "destroy",
@@ -270,6 +283,223 @@
 				}
 			],
 			"sid": 727132466712431
+=======
+			"sid": 229426167488501
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 758358820968468,
+					"parameters": {
+						"mouse-button": "right",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Player",
+					"sid": 995780855694813,
+					"parameters": {
+						"object": "Fireball",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 714004843153675
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 963400136244521,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Player",
+					"sid": 337543466644057,
+					"parameters": {
+						"object": "Sword",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "Sword",
+					"sid": 731448198255894,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Player",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 612191667293090
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "Sword",
+					"sid": 833475149396750,
+					"parameters": {
+						"animation": "\"Animation 1\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sword",
+					"sid": 518852506630239
+				}
+			],
+			"sid": 761735348204389
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Fireball",
+					"sid": 369891637372416,
+					"parameters": {
+						"object": "CandyKnight"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "CandyKnight",
+					"sid": 603123602232656,
+					"parameters": {
+						"instance-variable": "Health",
+						"value": "25"
+					}
+				}
+			],
+			"sid": 912934605724575
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sword",
+					"sid": 638279821500218,
+					"parameters": {
+						"object": "CandyKnight"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "CandyKnight",
+					"sid": 609931325385535,
+					"parameters": {
+						"instance-variable": "Health",
+						"value": "50"
+					}
+				}
+			],
+			"sid": 439066204918786
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "CandyKnight",
+					"sid": 861555238292144,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "CandyKnight",
+					"sid": 508806263655570
+				}
+			],
+			"sid": 440824893449355
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 690098107193353
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-object",
+					"objectClass": "CandyKnight",
+					"sid": 637138022653881,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"object": "Player",
+						"image-point": "0",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 676565487851585
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CandyKnight",
+					"sid": 535853417209464,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 979630836324515,
+					"parameters": {
+						"variable": "Health",
+						"value": "20"
+					}
+				}
+			],
+			"sid": 507955690474745
+>>>>>>> Stashed changes
 		}
 	],
 	"sid": 277905098473071
