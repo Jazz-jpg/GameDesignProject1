@@ -91,9 +91,10 @@
 	"layouts": {
 		"items": [
 			"Tutorial",
-			"Layout 1",
-			"Layout 2",
-			"Layout 3",
+			"Room 1",
+			"Room 2",
+			"Room 3",
+			"Room 4",
 			"Layout Boss"
 		],
 		"subfolders": []
@@ -250,5 +251,5 @@
 	},
 	"viewportWidth": 256,
 	"viewportHeight": 144,
-	"firstLayout": "Layout 1"
+	"firstLayout": "Room 1"
 }
