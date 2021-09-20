@@ -24,7 +24,6 @@
 		},
 		{
 			"type": "plugin",
-<<<<<<< Updated upstream
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
@@ -35,10 +34,6 @@
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
-=======
-			"id": "Keyboard",
-			"name": "Keyboard",
->>>>>>> Stashed changes
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
@@ -66,30 +61,6 @@
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Flash",
-			"name": "Flash",
-			"author": "Scirra",
-			"version": "r260",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Timer",
-			"name": "Timer",
-			"author": "Scirra",
-			"version": "r260",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Bullet",
-			"name": "Bullet",
-			"author": "Scirra",
-			"version": "r260",
-			"bundled": false
 		}
 	],
 	"uniqueId": "luz9b5c58m6",
@@ -97,7 +68,6 @@
 		"items": [
 			"Tilemap",
 			"Sprite",
-<<<<<<< Updated upstream
 			"TiledBackground",
 			"Door_Health",
 			"Icon_dmg",
@@ -105,14 +75,6 @@
 			"Door_Dmg",
 			"Door_MDmg",
 			"Icon_Health"
-=======
-			"Sprite2",
-			"Sprite3",
-			"FireBall",
-			"Keyboard",
-			"Sprite4",
-			"Sprite5"
->>>>>>> Stashed changes
 		],
 		"subfolders": []
 	},
