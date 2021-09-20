@@ -78,7 +78,7 @@
 						"tile-y-spacing": 0
 					},
 					"world": {
-						"x": -60,
+						"x": 0,
 						"y": 0,
 						"width": 1024,
 						"height": 1152,
@@ -128,8 +128,8 @@
 						}
 					},
 					"world": {
-						"x": 430,
-						"y": 646,
+						"x": 393,
+						"y": 1025,
 						"width": 16,
 						"height": 16,
 						"originX": 0.5,
@@ -145,11 +145,7 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
 					"type": "Door_Health",
-=======
-					"type": "Sprite2",
->>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -157,7 +153,6 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-<<<<<<< Updated upstream
 					"uid": 12,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -194,32 +189,6 @@
 						"x": 511.7498779296875,
 						"y": 71.99988555908203,
 						"width": 32,
-=======
-					"uid": 4,
-					"instanceVariables": {
-						"Invinci": false
-					},
-					"behaviors": {
-						"Flash": {
-							"properties": {}
-						},
-						"8Direction": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 500,
-								"directions": "dir-4",
-								"set-angle": "smooth",
-								"default-controls": true,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 395,
-						"y": 644.8795119081376,
-						"width": 16,
->>>>>>> Stashed changes
 						"height": 16,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -234,11 +203,7 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
 					"type": "Door_MDmg",
-=======
-					"type": "Sprite3",
->>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -246,7 +211,6 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-<<<<<<< Updated upstream
 					"uid": 22,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -254,23 +218,6 @@
 						"x": 591.8748779296875,
 						"y": 71.87488555908203,
 						"width": 32.25,
-=======
-					"uid": 5,
-					"instanceVariables": {
-						"Invinci": false,
-						"Cooldown": 0,
-						"CooldownTime": 3
-					},
-					"behaviors": {
-						"Timer": {
-							"properties": {}
-						}
-					},
-					"world": {
-						"x": 358,
-						"y": 645,
-						"width": 16,
->>>>>>> Stashed changes
 						"height": 16,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -285,22 +232,14 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
 					"type": "Icon_Health",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
-=======
-					"type": "FireBall",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
->>>>>>> Stashed changes
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-<<<<<<< Updated upstream
 					"uid": 23,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -309,31 +248,6 @@
 						"y": 87.7498779296875,
 						"width": 12,
 						"height": 12,
-=======
-					"uid": 6,
-					"instanceVariables": {},
-					"behaviors": {
-						"Bullet": {
-							"properties": {
-								"speed": 400,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
-							}
-						},
-						"Timer": {
-							"properties": {}
-						}
-					},
-					"world": {
-						"x": 374.8011169433594,
-						"y": 1060.2117919921875,
-						"width": 16,
-						"height": 16,
->>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -347,11 +261,7 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
 					"type": "Icon_dmg",
-=======
-					"type": "Sprite4",
->>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -359,7 +269,6 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-<<<<<<< Updated upstream
 					"uid": 24,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -368,20 +277,6 @@
 						"y": 88.2498779296875,
 						"width": 10,
 						"height": 13,
-=======
-					"uid": 8,
-					"instanceVariables": {},
-					"behaviors": {
-						"Timer": {
-							"properties": {}
-						}
-					},
-					"world": {
-						"x": 526.3981604228718,
-						"y": 679.0731506313268,
-						"width": 32,
-						"height": 32,
->>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -395,11 +290,7 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
 					"type": "Icon_MDmg",
-=======
-					"type": "Sprite5",
->>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -407,7 +298,6 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-<<<<<<< Updated upstream
 					"uid": 25,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -416,20 +306,6 @@
 						"y": 87.49988555908203,
 						"width": 12,
 						"height": 12,
-=======
-					"uid": 9,
-					"instanceVariables": {},
-					"behaviors": {
-						"Timer": {
-							"properties": {}
-						}
-					},
-					"world": {
-						"x": 499.18526985289094,
-						"y": 698.5109464202583,
-						"width": 32,
-						"height": 32,
->>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
