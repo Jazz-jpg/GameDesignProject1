@@ -2,6 +2,7 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+<<<<<<< Updated upstream
 			"eventType": "variable",
 			"name": "Health",
 			"type": "number",
@@ -63,21 +64,77 @@
 				}
 			],
 			"sid": 329153686733078
+=======
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 529340522054255
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Sprite3",
+					"sid": 420281535472200,
+					"parameters": {
+						"instance-variable": "Cooldown",
+						"value": "dt"
+					}
+				}
+			],
+			"sid": 257441073362433
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Door_Dmg",
-					"sid": 895589105409695,
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 659194607552303,
 					"parameters": {
-						"object": "Sprite"
+						"key": 83
 					}
 				}
 			],
 			"actions": [
 				{
+					"id": "move-at-angle",
+					"objectClass": "Sprite3",
+					"sid": 309541723548249,
+					"parameters": {
+						"angle": "90",
+						"distance": "16"
+					}
+				}
+			],
+			"sid": 963322934581739
+>>>>>>> Stashed changes
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+<<<<<<< Updated upstream
+					"id": "on-collision-with-another-object",
+					"objectClass": "Door_Dmg",
+					"sid": 895589105409695,
+					"parameters": {
+						"object": "Sprite"
+=======
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 152430870213201,
+					"parameters": {
+						"key": 65
+>>>>>>> Stashed changes
+					}
+				}
+			],
+			"actions": [
+				{
+<<<<<<< Updated upstream
 					"id": "go-to-nextprevious-layout",
 					"objectClass": "System",
 					"sid": 683749584146899,
@@ -96,21 +153,67 @@
 				}
 			],
 			"sid": 747904108610336
+=======
+					"id": "move-at-angle",
+					"objectClass": "Sprite3",
+					"sid": 908797275938071,
+					"parameters": {
+						"angle": "180",
+						"distance": "16"
+					}
+				}
+			],
+			"sid": 212607797269474
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Door_MDmg",
-					"sid": 966915789408622,
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 297800957125819,
 					"parameters": {
-						"object": "Sprite"
+						"key": 68
 					}
 				}
 			],
 			"actions": [
 				{
+					"id": "move-at-angle",
+					"objectClass": "Sprite3",
+					"sid": 493978673565132,
+					"parameters": {
+						"angle": "0",
+						"distance": "16"
+					}
+				}
+			],
+			"sid": 769248789043715
+>>>>>>> Stashed changes
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+<<<<<<< Updated upstream
+					"id": "on-collision-with-another-object",
+					"objectClass": "Door_MDmg",
+					"sid": 966915789408622,
+					"parameters": {
+						"object": "Sprite"
+=======
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 530564451885331,
+					"parameters": {
+						"key": 87
+>>>>>>> Stashed changes
+					}
+				}
+			],
+			"actions": [
+				{
+<<<<<<< Updated upstream
 					"id": "go-to-nextprevious-layout",
 					"objectClass": "System",
 					"sid": 164264062740031,
@@ -129,6 +232,381 @@
 				}
 			],
 			"sid": 229426167488501
+=======
+					"id": "move-at-angle",
+					"objectClass": "Sprite3",
+					"sid": 990026656096619,
+					"parameters": {
+						"angle": "270",
+						"distance": "16"
+					}
+				}
+			],
+			"sid": 796806234742449
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 289447518678096,
+					"parameters": {
+						"key": 32
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite3",
+					"sid": 341050827013072,
+					"parameters": {
+						"instance-variable": "Cooldown",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 729422342388898,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 269646824589648,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite3",
+							"sid": 171659740443455,
+							"parameters": {
+								"animation": "\"DodgeU\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Sprite3",
+							"sid": 580999587857493,
+							"parameters": {
+								"instance-variable": "Cooldown",
+								"value": "3"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Sprite3",
+							"sid": 209072435809415,
+							"parameters": {
+								"instance-variable": "Invinci",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "Sprite4",
+							"sid": 881663939201662,
+							"parameters": {
+								"opacity": "50"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 199966217698309,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Sprite3",
+							"sid": 347476075833313,
+							"parameters": {
+								"instance-variable": "Invinci",
+								"value": "false"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 361824710272484,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "Sprite4",
+							"sid": 493211375341667,
+							"parameters": {
+								"opacity": "100"
+							}
+						}
+					],
+					"sid": 646680976305040
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 805207137636052,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite3",
+							"sid": 873434601685999,
+							"parameters": {
+								"animation": "\"DodgeR\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Sprite3",
+							"sid": 674976059860983,
+							"parameters": {
+								"instance-variable": "Cooldown",
+								"value": "3"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Sprite3",
+							"sid": 986422247037289,
+							"parameters": {
+								"instance-variable": "Invinci",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "Sprite4",
+							"sid": 718142152941385,
+							"parameters": {
+								"opacity": "50"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 209602678038817,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Sprite3",
+							"sid": 771267269176451,
+							"parameters": {
+								"instance-variable": "Invinci",
+								"value": "false"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 861487329702515,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "Sprite4",
+							"sid": 789140580171025,
+							"parameters": {
+								"opacity": "100"
+							}
+						}
+					],
+					"sid": 498815436913584
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 224562125254618,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite3",
+							"sid": 167653803578217,
+							"parameters": {
+								"animation": "\"DodgeL\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Sprite3",
+							"sid": 546959485946573,
+							"parameters": {
+								"instance-variable": "Cooldown",
+								"value": "3"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Sprite3",
+							"sid": 506672914034643,
+							"parameters": {
+								"instance-variable": "Invinci",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "Sprite4",
+							"sid": 254286412492767,
+							"parameters": {
+								"opacity": "50"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 545820147242663,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Sprite3",
+							"sid": 680156216720390,
+							"parameters": {
+								"instance-variable": "Invinci",
+								"value": "false"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 115568041405020,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "Sprite4",
+							"sid": 272487405455576,
+							"parameters": {
+								"opacity": "100"
+							}
+						}
+					],
+					"sid": 551898933616942
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 101728897387593,
+							"parameters": {
+								"key": 83
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite3",
+							"sid": 802767310343562,
+							"parameters": {
+								"animation": "\"DodgeD\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Sprite3",
+							"sid": 697901163485834,
+							"parameters": {
+								"instance-variable": "Cooldown",
+								"value": "3"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Sprite3",
+							"sid": 541532025474287,
+							"parameters": {
+								"instance-variable": "Invinci",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "Sprite4",
+							"sid": 221309399534511,
+							"parameters": {
+								"opacity": "50"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 433246866422444,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Sprite3",
+							"sid": 799820709965282,
+							"parameters": {
+								"instance-variable": "Invinci",
+								"value": "false"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 885880147970918,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "Sprite4",
+							"sid": 962690144904018,
+							"parameters": {
+								"opacity": "100"
+							}
+						}
+					],
+					"sid": 558197145229468
+				}
+			]
+>>>>>>> Stashed changes
 		}
 	],
 	"sid": 277905098473071

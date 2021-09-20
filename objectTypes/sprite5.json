@@ -1,0 +1,63 @@
+{
+	"name": "Sprite5",
+	"plugin-id": "Sprite",
+	"sid": 709337898258173,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 552030318840304
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6629021,
+						"collisionPoly": {
+							"points": [
+								0.15625,
+								0.15625,
+								0.5,
+								0.03125,
+								0.8125,
+								0.15625,
+								0.9375,
+								0.5,
+								0.78125,
+								0.78125,
+								0.5,
+								0.9375,
+								0.15625,
+								0.8125,
+								0.03125,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 875935081108191,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
